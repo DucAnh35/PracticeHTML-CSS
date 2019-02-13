@@ -1,7 +1,7 @@
 window.onscroll = function () {
     myHeader();
 }
-var header = document.getElementById('b-page-header');
+var header = document.getElementById('p-page-header');
 var sticky = header.offsetTop;
 function myHeader() {
     if (window.pageYOffset > sticky) {
@@ -10,15 +10,15 @@ function myHeader() {
         header.classList.remove('sticky');
     }
 }
-document.getElementById('b-togger').onclick = function () {
+document.getElementById('p-togger').onclick = function () {
     toggerMenu();
 }
 function toggerMenu() {
     var x = document.getElementById('top-menu');
-    if (x.className === 'b-page-nav') {
+    if (x.className === 'p-page-nav') {
         x.className += ' responsive';
     } else {
-        x.className = 'b-page-nav'
+        x.className = 'p-page-nav'
     }
 }
 

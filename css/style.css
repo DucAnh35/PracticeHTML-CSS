@@ -13,7 +13,26 @@
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
+.p-page-header .p-mobile-menu {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  right: 10px;
+  top: 15px;
+  z-index: 9999;
+}
+.p-page-header .p-mobile-menu .p-btn-mobile {
+  background-color: transparent;
+  border: 2px solid #4bcaff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.p-page-header .p-mobile-menu .p-btn-mobile:hover {
+  background-color: red;
+}
+.p-page-header .p-mobile-menu .p-btn-mobile i {
+  color: #4bcaff;
+}
 .p-page-header .p-logo {
   position: relative;
   text-align: left;

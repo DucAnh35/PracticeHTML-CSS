@@ -116,7 +116,7 @@ body {
 }
 .p-page-slider .slick-prev:before,
 .p-page-slider .slick-next:before {
-  color: black;
+  color: #92dcff;
 }
 .p-page-slider .slick-slide {
   cursor: pointer;
@@ -142,7 +142,7 @@ body {
 }
 .p-page-slider .slick-track .p-content .p-info {
   position: absolute;
-  left: 3.2%;
+  left: 4%;
   top: 40%;
   color: #fff;
 }
@@ -166,7 +166,7 @@ body {
   position: absolute;
   width: 100%;
   top: 65%;
-  left: 3.2%;
+  left: 4%;
 }
 .p-page-slider .slick-track .p-content .p-group-buttons .p-buttons {
   font-size: 15px;
@@ -191,7 +191,7 @@ body {
   position: absolute;
   width: 100%;
   top: 80%;
-  left: 3.2%;
+  left: 4%;
 }
 
 .p-page-slider .slick-track .p-content .p-available .p-text {
@@ -203,6 +203,7 @@ body {
 }
 .p-page-slider .slick-track .p-content .p-available .p-page-nav .item {
   position: relative;
+  left: 20px;
   width: 52px;
   height: 52px;
   border-radius: 26px;
@@ -212,10 +213,13 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-
   transform: translate(-50%, -50%);
-  color: #4bcaff;
+  color: white;
   font-size: 22px;
+}
+
+.p-page-slider .slick-track .p-content .p-available .p-page-nav .item:hover i{
+  color: #4bcaff;
 }
 
 .p-page-features {
@@ -431,13 +435,13 @@ body {
   font-family: "lato";
   font-size: 36px;
   font-weight: 900;
-  color: #414042;
+  color: #312f33;
 }
 .p-page-prices .p-heading .p-text {
   font-family: "lato";
   font-size: 20px;
   font-weight: 300;
-  color: #414042;
+  color: #312f33;
 }
 .p-page-prices .p-cards {
   margin-top: 30px;
@@ -513,8 +517,18 @@ body {
   -webkit-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
+ 
 }
 
+.p-page-prices .p-cards:hover .p-card-header .p-title{
+  font-size: 20px;
+}
+.p-page-prices .p-cards:hover  .p-current .p-price{
+  font-size: 90px;
+}
+.p-page-prices .p-cards:hover .p-content{
+  font-size: 24px;
+}
 .p-page-testimonials {
   position: relative;
   background-color: #f9f9f9;
@@ -529,6 +543,7 @@ body {
   font-weight: 900;
   color: #414042;
 }
+
 .p-page-testimonials .p-heading .p-text {
   font-family: "lato";
   font-size: 20px;
@@ -717,4 +732,17 @@ body {
   margin-top: 50px;
 }
 
-
+/* ::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #4bcaff;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */

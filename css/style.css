@@ -493,10 +493,14 @@ body {
   padding: 10px 30px;
   border-radius: 3px;
   font-size: 15px;
-  background-color: #4bcaff;
+  background-color: #91c46b;
   color: #fefefe;
   font-family: "Lato";
   font-weight: 700;
+}
+
+.p-page-prices .p-cards.p-blue .p-btn{
+  background-color: #4bcaff;
 }
 .p-page-prices  .p-blue:hover .p-title{
   color: #4bcaff;

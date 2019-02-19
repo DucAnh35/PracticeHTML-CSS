@@ -1,7 +1,7 @@
 $('#open-popup').magnificPopup({
     items: [
         {
-            src: "https://www.youtube.com/embed/QppXwgg7nC8",
+            src: "https://www.youtube.com/watch?v=LrJ0GkF3zig",
             type: 'iframe' 
         }
     ],

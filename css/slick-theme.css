@@ -29,7 +29,7 @@
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   cursor: pointer;
-  color: transparent;
+  color: white;
   border: none;
   outline: none;
   background: transparent;
@@ -78,13 +78,13 @@
 }
 
 .slick-next {
-  right: 25px;
+  right: 45px;
   z-index: 999;
 }
 
 [dir="rtl"] .slick-next {
   right: auto;
-  left: -25px;
+  left: -45px;
 }
 
 .slick-next:before {

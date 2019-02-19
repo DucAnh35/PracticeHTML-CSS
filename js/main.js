@@ -1,9 +1,7 @@
 jQuery(document).ready(function ($) {
     "use strict";
-    // loading page
-    var loaderPage = function () {
-        $('.b-page-loader').fadeOut('slow');
-    }
+    
+   
     // Cache selectors
     var lastId,
         topMenu = $("#top-menu"),
@@ -49,8 +47,5 @@ jQuery(document).ready(function ($) {
                 .end().filter("[href='#" + id + "']").parent().addClass("active");
         }
     });
-    // Document on load.
-    $(document).ready(function () {
-        loaderPage();
-    });
+    
 });
